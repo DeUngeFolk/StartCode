@@ -21,6 +21,19 @@ public class RenameMeDTO {
         return rmdtos;
     }
 
+    public long getId() {
+        return id;
+    }
+
+    public RenameMeDTO(long id, String str1, String str2) {
+        this.id = id;
+        this.str1 = str1;
+        this.str2 = str2;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public RenameMeDTO(RenameMe rm) {
         if(rm.getId() != null)

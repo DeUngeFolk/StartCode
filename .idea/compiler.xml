@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="devops-starter" />
+        <module name="Startcode_Backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Startcode_Backend" options="-endorseddirs C:\Users\vaksj\OneDrive\Skrivebord\Startcode_Backend\target/endorsed" />
       <module name="devops-starter" options="-endorseddirs &quot;C:\Users\Razer\Documents\School\3 Semester\Security\SecurityDemo\target/endorsed&quot;" />
     </option>
   </component>

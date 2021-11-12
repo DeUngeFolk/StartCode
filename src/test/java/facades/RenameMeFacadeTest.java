@@ -60,7 +60,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         }
 
         @Test
-        void getPersonCount() throws Exception {
+        void getRenameMeCount() throws Exception {
             assertEquals(2, facade.getRenameMeCount(), "Expects two rows in the database");
         }
 
